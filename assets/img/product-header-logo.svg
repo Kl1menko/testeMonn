@@ -1,0 +1,28 @@
+<svg width="50" height="50" id="Layer_header" data-name="Layer_header" xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 470 400">
+        <defs>
+          <style>
+            .class1,
+            .class2,
+            .class3 {
+              fill: #d6d6d5;
+              transition: fill .3s ease;
+            }
+
+            .class1,
+            .class3 {
+              stroke: #d6d6d5;
+              stroke-miterlimit: 10;
+            }
+
+            .class1 {
+              fill-rule: evenodd;
+            }
+          </style>
+        </defs>
+        <path class="class1" d="M429.8,534.09" transform="translate(-417.91 -201.2)" />
+        <circle class="class2" cx="366.15" cy="259.92" r="23.97" />
+        <polygon class="class3" points="96.89 283.89 140.25 283.89 223.02 114.41 203.31 67.11 96.89 283.89" />
+        <polygon class="class3"
+          points="234.84 134.12 179.66 248.42 223.02 248.42 234.84 224.77 266.38 283.89 313.67 283.89 234.84 134.12" />
+      </svg>

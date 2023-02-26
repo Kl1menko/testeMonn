@@ -1,0 +1,125 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+</head>
+<style>
+  table.delivery {width: 100%; border: 0px; border-collapse: collapse;}
+  table.delivery thead {font-weight: bold;}
+  table.delivery td {padding: 0.6rem 1rem; border-bottom: 1px solid #e8e9eb;}
+
+  @media screen and (max-width: 800px) {
+    table.delivery thead {
+      display: none;
+    }
+    table.delivery tr {
+      display: block;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #e8e9eb;
+    }
+    table.delivery td {
+      display: block;
+      text-align: right;
+    }
+    table.delivery td:before {
+      content: attr(aria-label);
+      float: left;
+      font-weight: bold;
+    }
+  }
+</style>
+<body>
+  <table align="center" cellpadding="0" cellspacing="0" border="0" width="100%" style="min-width: 320px; font-family: 'Roboto', Roboto, Times, serif;">
+    <table width="100%">
+      <tbody width="100%">
+        <td align="center" width="100%" height="100px">
+          <a href="https://www.aesthetic-shop.com.ua/" target="_blank" style="display: block; max-width: 130px;">
+            <img src="assets/img/logo-mail.png" alt="logo" />
+          </a>
+        </td>
+      </tbody>
+    </table>
+    <table width="100%">
+      <thead width="100%">
+        <tr width="100%" align="center">
+         <p style="text-align: center; font-family: Georgia, 'Roboto', Times, serif; font-size: 24px; color: #8b8b8b;  width: 100%; margin-top: 0;">Спасибо, ваш заказ принятый</p>
+        </tr>
+      </thead>
+      <tbody align="center" width="100%">
+        <table align="center" width="320px">
+          <td style="font-family: Georgia, 'Roboto', Times, serif; font-size: 16px; color: #8b8b8b;  width: 320px; padding-bottom: 40px; max-width: 320px;">
+            <p style="text-align: center; margin: 0"> Как только посылка будет отправлена, вам придет новое сообщение с накладной товара.</p>
+          </td>
+        </table>
+      </tbody>
+    </table>
+    <table align="center" width="100%">
+      <td width="100%" align="center">
+        <p style="text-align: center; font-family: Georgia, 'Roboto', Times, serif; font-size: 24px; color: #8b8b8b;  width: 100%;">Адресс доставки</p>
+      </td>
+    </table>
+    <table width="100%">
+      <tbody>
+        <tr width="100%" style="background-color: #f1f1f1; border-left: 1px solid #6b6b6b;">
+          <td width="150" style="padding: 5px; width: 100px; font-size: 14px; font-family: 'Roboto', sans-serif;"><strong>Город</strong></td>
+          <td width="320" align="center" style="padding-left: 15px; padding-right: 15px;">
+            <p style="text-align: left; font-family: Georgia, 'Roboto', Times, serif; font-size: 14px; color: #8b8b8b;  width: 100%;">
+              USER_CITY
+            </p>
+          </td>
+        </tr>
+        <tr width="100%" style="background-color: #f1f1f1; border: 1px solid #6b6b6b">
+          <td width="150" style="padding: 5px; width: 100px; font-size: 14px; font-family: 'Roboto', sans-serif;"><strong>Улица</strong></td>
+          <td width="320" align="center" style="padding-left: 15px; padding-right: 15px;">
+            <p style="text-align: left; font-family: Georgia, 'Roboto', Times, serif; font-size: 14px; color: #8b8b8b;  width: 100%;">
+              USER_STREET
+            </p>
+          </td>
+        </tr>
+        <tr width="100%" style="background-color: #f1f1f1; border-left: 1px solid #6b6b6b;">
+          <td width="150" style="padding: 5px; width: 100px; font-size: 14px; font-family: 'Roboto', sans-serif;"><strong>Область</strong></td>
+          <td width="320" align="center"style="padding-left: 15px; padding-right: 15px;">
+            <p style="text-align: left; font-family: Georgia, 'Roboto', Times, serif; font-size: 14px; color: #8b8b8b;  width: 100%;">
+              USER_REGION
+            </p>
+          </td>
+        </tr>
+        <tr width="100%" style="background-color: #f1f1f1; border-left: 1px solid #6b6b6b;">
+          <td width="150" style="padding: 5px; width: 100px; font-size: 14px; font-family: 'Roboto', sans-serif;"><strong>Стоимость накладной</strong></td>
+          <td width="320" align="center" style="padding-left: 15px; padding-right: 15px;">
+            <p style="text-align: left; font-family: Georgia, 'Roboto', Times, serif; font-size: 14px; color: #8b8b8b;  width: 100%;">
+              ORDER_TOTAL грн.
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <table width="100%">
+      <tr width="100%">
+        <td width="100%" align="center">
+          <p style="text-align: center; font-family: Georgia, 'Roboto', Times, serif; font-size: 24px; color: #8b8b8b;  width: 100%; padding-bottom: 30px;">Товары</p>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          ORDER_ITEMS
+        </td>
+      </tr>
+    </table>
+    <table width="100%" align="center">
+      <tbody align="center">
+        <td width="200">
+          <table width="200">
+            <tbody width="100%" align="center">
+              <td align="center" width="100%">
+                <a href="https://www.aesthetic-shop.com.ua/" style="font-family: Roboto, 'Roboto', Times, serif; max-width: 100%; padding: 20px; background-color: #000; color: #fff; display: inline-block; text-decoration: none; margin: 0 auto;">Похожие товары</a>
+              </td>
+            </tbody>
+          </table>
+        </td>
+      </tbody>
+    </table>
+  </table>
+</body>
+</html>
+
